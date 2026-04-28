@@ -1,6 +1,6 @@
 const { addonBuilder, serveHTTP } = require("stremio-addon-sdk");
-const { getVixSRCStreams } = require("./scrapers/vixsrc");
-const { getStreamingCommunityStreams } = require("./scrapers/streamingcommunity");
+const { getVixSRCStreams } = require("./vixsrc");
+const { getStreamingCommunityStreams } = require("./streamingcommunity");
 
 const manifest = {
   id: "org.addon.multistream-ita",
