@@ -1,11 +1,8 @@
 {
-  "name": "multistream-ita-addon",
+  "name": "ita-stream-addon",
   "version": "1.0.0",
-  "description": "Addon Stremio multi-sorgente italiano - VixSRC + StreamingCommunity",
-  "main": "index.js",
   "scripts": {
-    "start": "node index.js",
-    "dev": "nodemon index.js"
+    "start": "node index.js"
   },
   "dependencies": {
     "stremio-addon-sdk": "^1.6.10",
@@ -13,12 +10,7 @@
     "cheerio": "^1.0.0-rc.12",
     "express": "^4.18.2"
   },
-  "devDependencies": {
-    "nodemon": "^3.0.0"
-  },
   "engines": {
-    "node": ">=16.0.0"
-  },
-  "keywords": ["stremio", "addon", "streaming", "italiano"],
-  "license": "MIT"
+    "node": ">=18.0.0"
+  }
 }
