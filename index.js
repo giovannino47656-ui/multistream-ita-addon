@@ -1,5 +1,5 @@
 const { addonBuilder, getRouter } = require("stremio-addon-sdk");
-const { getStreams } = require("./scrapers/resolver");
+const { getStreams } = require("./resolver");
 const express = require("express");
 const path = require("path");
 
